@@ -1,0 +1,42 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# ASP.NET Core
+wwwroot/lib/
+
+# Logs
+*.log
+
+# Publish output
+publish/
+
+# User-specific files
+*.rsuser
+*.DotSettings.user
+
+# Temporary files
+*.tmp
+*.temp
+
+# Others
+*.db
+*.bak
