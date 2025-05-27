@@ -1,42 +1,42 @@
-# Visual Studio
-.vs/
+# Build results
+bin/
+obj/
+
+# User-specific files
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Build results
-bin/
-obj/
+# Visual Studio cache files
+.vs/
 
-# NuGet
-*.nupkg
-packages/
-.nuget/
-
-# Visual Studio Code
-.vscode/
-
-# Rider
+# Rider files
 .idea/
 
-# ASP.NET Core
-wwwroot/lib/
+# IIS Express
+iisexpress/
+
+# DotNet Core publish folder
+publish/
 
 # Logs
 *.log
 
-# Publish output
-publish/
-
-# User-specific files
-*.rsuser
-*.DotSettings.user
+# NuGet packages
+*.nupkg
+packages/
 
 # Temporary files
 *.tmp
 *.temp
 
-# Others
-*.db
-*.bak
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Razor Pages / MVC generated files
+wwwroot/
+
+# User secrets (if used)
+secrets.json
