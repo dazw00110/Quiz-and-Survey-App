@@ -3,11 +3,11 @@ public class QuizAnswer
 {
     public int Id { get; set; }
 
-    public int QuizResponseId { get; set; }
-    public QuizResponse QuizResponse { get; set; }
+    public required int QuizResponseId { get; set; }
+    public required QuizResponse QuizResponse { get; set; }
 
-    public int QuizQuestionId { get; set; }
-    public QuizQuestion QuizQuestion { get; set; }
+    public required int QuizQuestionId { get; set; }
+    public required QuizQuestion QuizQuestion { get; set; }
 
-    public string AnswerText { get; set; }
+    public required string AnswerText { get; set; }
 }

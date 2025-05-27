@@ -6,11 +6,11 @@ public class QuizResponse
 {
     public int Id { get; set; }
 
-    public string UserId { get; set; }
-    public AppUser User { get; set; }
+    public required string UserId { get; set; }
+    public required AppUser User { get; set; }
 
-    public int QuizId { get; set; }
-    public Quiz Quiz { get; set; }
+    public required int QuizId { get; set; }
+    public required Quiz Quiz { get; set; }
 
     public DateTime DateSubmitted { get; set; }
 

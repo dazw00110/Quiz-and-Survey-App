@@ -4,13 +4,13 @@ using System.Collections.Generic;
 
 public class SurveyResponse
 {
-    public int Id { get; set; }
+    public required int Id { get; set; }
 
-    public string UserId { get; set; }
-    public AppUser User { get; set; }
+    public required string UserId { get; set; }
+    public required AppUser User { get; set; }
 
-    public int SurveyId { get; set; }
-    public Survey Survey { get; set; }
+    public required int SurveyId { get; set; }
+    public required Survey Survey { get; set; }
 
     public DateTime DateSubmitted { get; set; }
 
